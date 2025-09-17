@@ -1,3 +1,20 @@
-h1{
+@import url(´https:);
+body{
+    font-family: "Arial";
+}
+h1,
+h2{
     text-align: center;
+}
+img{
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    transition: all 0.5s ease;
+}
+img:hover{
+    transform: scale(1.1);
 }
